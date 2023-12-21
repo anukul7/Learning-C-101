@@ -3,9 +3,10 @@
 int main()
 {
     const float pi = 3.14;
-    int radius = 7;
-    int multiply = pi * radius * radius;
-    printf("area is : %d", multiply);
+    float radius;
+    printf("enter radius");
+    scanf("%f", &radius);
+    printf("area is : %f", pi * radius * radius);
 
     return 0;
 }
