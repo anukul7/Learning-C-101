@@ -9,4 +9,5 @@ int main()
     printf("enter base");
     scanf("%f", &base);
     printf("area is : %f", 1.0 / 2.0 * base * side);
+    return 0;
 }
